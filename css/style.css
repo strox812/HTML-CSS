@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -47,4 +57,29 @@ body {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__heading {
+    width: 510px;
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 359px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
 }
