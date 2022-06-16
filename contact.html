@@ -10,15 +10,19 @@
 </head>
 
 <body>
-    <ul class="header">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <div class="contacts-header">
-        <h2 class="heading-contacts">Contact Us</h2>
-        <p class="text">Loremdwddwfkkkljjljlkgjijijiljlijiljlfjljev,veoevmevmpemvpo</p>
+    <div class="container">
+        <ul class="header">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
     </div>
-    <form action="#">
+    <div class="contacts-header">
+        <div class="container">
+            <h2 class="heading-contacts">Contact Us</h2>
+            <p class="text">Loremdwddwfkkkljjljlkgjijijiljlijiljlfjljev,veoevmevmpemvpo</p>
+        </div>
+    </div>
+    <form action="#" class="container main">
         <div class="contact-info">
             <img src="img/contact.jpg" height="200" width="300" alt="contact photo">
             <h4 class="heading-mini">Address</h4>
@@ -43,9 +47,11 @@
             <button class="submit_button" name="pole" type="submit">Submit</button>
         </div>
     </form>
-    <script type="text/javascript" charset="utf-8" async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af99680be213b8070699cefc7355dd8df5b2a689c7061bd7c30f2805688a138f6&amp;width=320&amp;height=240&amp;lang=ru_RU&amp;scroll=true">
-        </script>
+    <div class="container">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af99680be213b8070699cefc7355dd8df5b2a689c7061bd7c30f2805688a138f6&amp;width=100%&amp;height=240&amp;lang=ru_RU&amp;scroll=true">
+            </script>
+    </div>
     <div class="footer">
         <div class="footer__top">
             <div class="footer__text">
@@ -67,8 +73,5 @@
         </div>
     </div>
 </body>
-<footer>
-    <p>Все права защищены</p>
-</footer>
 
 </html>

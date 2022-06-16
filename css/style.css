@@ -83,3 +83,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.main {
+    display: flex;
+}
